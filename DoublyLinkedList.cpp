@@ -1,5 +1,5 @@
 
-// Implementation of Linked List
+// Implementation of Doubly Linked List 
 
 #include <iostream>
 using namespace std;
@@ -9,21 +9,21 @@ class Node
 public:
     int data;
     Node *next;
-
+    Node *prev;
     Node(int val)
     {
         data = val;
-        next = NULL;
+        next = prev = NULL;
     }
 };
 
-class List
+class DoublyList
 {
     Node *head;
     Node *tail;
 
 public:
-    List()
+    DoublyList()
     {
         head = tail = NULL;
     }
@@ -32,6 +32,7 @@ public:
     {
 
         Node *newNode = new Node(val);
+
         if (head == NULL)
         {
             head = tail = newNode;
@@ -39,11 +40,13 @@ public:
         else
         {
             newNode->next = head;
+            head->prev = newNode;
             head = newNode;
         }
     }
     void push_back(int val)
     {
+
         Node *newNode = new Node(val);
 
         if (head == NULL)
@@ -52,75 +55,66 @@ public:
         }
         else
         {
-
+            newNode->prev = tail;
             tail->next = newNode;
             tail = newNode;
         }
     }
     void pop_front()
     {
-
         if (head == NULL)
         {
-            cout << "List is empty";
+            cout << "DLL is empty";
             return;
         }
-
-        Node *temp;
-        head = head->next;
-        temp->next = NULL;
-
+        Node *temp = tail;
+        tail = tail->prev;
+        if (tail != NULL)
+        {
+            tail->next = NULL;
+        }
+        temp->prev = NULL;
         delete temp;
     }
     void pop_back()
     {
         if (head == NULL)
         {
-            cout << "List is empty";
-            return;
+            int val;
         }
-        Node *temp;
-        while (temp->next != tail)
+        Node *temp = head;
+        head = head->next;
+        if (head != NULL)
         {
 
-            temp = temp->next;
+            head->prev = NULL;
         }
-
         temp->next = NULL;
-        delete tail;
-        tail = temp;
+        delete temp;
     }
-    void printll()
+    void printdll() // O(n)
     {
         Node *temp = head;
+
         while (temp != NULL)
         {
-            cout << temp->data << " ";
+            cout << temp->data << "->";
             temp = temp->next;
         }
-    }
-    int search(int key)
-    {
-
-        Node *temp = head;
-        int idx = 0;
-        while (temp->next != NULL)
-        {
-            if (temp->data == key)
-            {
-                return idx;
-            }
-            temp = temp->next;
-            idx++;
-        }
-        return -1;
+        cout << "NULL" << endl;
     }
 };
 
 int main()
 {
-    List ll;
-    ll.push_front(1);
-    ll.printll();
-    return 0;
+
+    DoublyList dll;
+    dll.push_front(1);
+    dll.push_front(2);
+    dll.push_front(3);
+    dll.push_back(5);
+    dll.pop_front();
+    dll.pop_back();
+
+    dll.printdll();
 }
