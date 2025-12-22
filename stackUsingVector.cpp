@@ -1,3 +1,6 @@
+
+// Implementation of STACK using vector
+
 #include <iostream>
 #include <vector>
 using namespace std;

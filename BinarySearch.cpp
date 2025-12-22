@@ -1,3 +1,7 @@
+
+
+// Binary Search Algorithm
+
 #include <iostream>
 using namespace std;
 
