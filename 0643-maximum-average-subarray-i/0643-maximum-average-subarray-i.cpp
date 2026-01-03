@@ -9,7 +9,7 @@ public:
         for (int i = 0; i < k; i++) {
             sum += nums[i];
         }
-        ans = sum / k;
+        ans = (double)sum / k;
         for (int i = 1; i < n - k + 1; i++) {
             sum += nums[i + k - 1];
             sum -= nums[i - 1];
