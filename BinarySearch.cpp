@@ -16,9 +16,13 @@ int BinarySearch(int *arr, int size, int target)
     {
         if (target > arr[mid])
         {
-           s = mid + 1;
+            s = mid + 1;
         }
-        else if (target <= arr [mid])
+        else if (target < arr[mid])
+        {
+            e = mid - 1;
+        }
+        else
         {
             return mid;
         }
