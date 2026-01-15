@@ -14,7 +14,7 @@ public:
         ListNode* curr = head;
         ListNode* prev = NULL;
 
-        while (curr != NULL) {
+        while (curr) {
 
             if (curr->next != NULL && curr->val == curr->next->val) {
                 int val = curr->val;
