@@ -11,15 +11,16 @@
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
-        ListNode* res = head;
-        while (head && head->next) {
 
-            if (head->val == head->next->val) {
-                head->next = head->next->next;
+        ListNode* curr = head;
+
+        while (curr && curr->next) {
+            if (curr->val != curr->next->val) {
+                curr = curr->next;
             } else {
-                head = head->next;
+                curr->next = curr->next->next;
             }
         }
-        return res;
+        return head;
     }
 };
