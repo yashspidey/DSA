@@ -15,9 +15,10 @@ public:
         ListNode* fast = head;
 
         while (fast != NULL && fast->next != NULL) {
-           
+
             slow = slow->next;
-            fast = fast->next->next; if (fast != NULL && fast == slow) {
+            fast = fast->next->next;
+            if (fast != NULL && fast == slow) {
                 return true;
             }
         }
