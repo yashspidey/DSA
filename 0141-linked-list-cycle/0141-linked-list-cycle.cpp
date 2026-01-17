@@ -9,14 +9,17 @@
 class Solution {
 public:
     bool hasCycle(ListNode* head) {
-        set<ListNode*> visited;
+        // Floyd Cycle Detection Algorithm
 
-        while (head != NULL) {
-            if (visited.count(head)) {
+        ListNode* slow = head;
+        ListNode* fast = head;
+
+        while (fast != NULL && fast->next != NULL) {
+           
+            slow = slow->next;
+            fast = fast->next->next; if (fast != NULL && fast == slow) {
                 return true;
             }
-            visited.insert(head);
-            head = head->next;
         }
         return false;
     }
