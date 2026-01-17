@@ -10,6 +10,12 @@ class Solution {
 public:
     ListNode* detectCycle(ListNode* head) {
 
+        // intuition prove krna pdega mathematically in interviews -
+
+        // calculate how much total distance fast has travelled including the
+        // number of times it has circle around the cycle and equate it with
+        // twice the distance slow has travelled.     2 (L1 + L2) = L1 + L2 + nk
+
         if (head == NULL || (head->next == NULL)) {
             return NULL;
         }
