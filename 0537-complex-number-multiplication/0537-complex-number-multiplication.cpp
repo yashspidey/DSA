@@ -2,20 +2,37 @@ class Solution {
 public:
     string complexNumberMultiply(string num1, string num2) {
 
-        int ra;
-        int ia;
-        int rb;
-        int ib;
-        stringstream ss1(num1);
-        stringstream ss2(num2);
-        stringstream ans;
-        char buff;
+        int p1 = 0;
+        int p2 = 0;
 
-        ss1 >> ra >> buff >> ia >> buff;
-        ss2 >> rb >> buff >> ib >> buff;
+        for (int i = 0; i < num1.size(); i++) {
+            if (num1[i] == '+') {
+                p1 = i;
+                break;
+            }
+        }
+        for (int i = 0; i < num2.size(); i++) {
+            if (num2[i] == '+') {
+                p2 = i;
+                break;
+            }
+        }
 
-        ans << ra * rb - ia * ib << "+" << ra * ib + rb * ia << "i";
+        int a = stoi(num1.substr(0, p1));
+        int b = stoi(num1.substr(p1 + 1));
+        int c = stoi(num2.substr(0, p2));
+        int d = stoi(num2.substr(p2 + 1));
 
-        return ans.str();
+        int real = a * c - b * d;
+        int imaginary = a * d + b * c;
+
+        string ans = "";
+
+        ans += to_string(real);
+        ans += "+";
+        ans += to_string(imaginary);
+        ans += "i";
+
+        return ans;
     }
 };
