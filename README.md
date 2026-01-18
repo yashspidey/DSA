@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/yashspidey/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0189-rotate-array](https://github.com/yashspidey/DSA/tree/master/0189-rotate-array) |
 | [0643-maximum-average-subarray-i](https://github.com/yashspidey/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/yashspidey/DSA/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [1816-truncate-sentence](https://github.com/yashspidey/DSA/tree/master/1816-truncate-sentence) |
@@ -31,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/yashspidey/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0165-compare-version-numbers](https://github.com/yashspidey/DSA/tree/master/0165-compare-version-numbers) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/yashspidey/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0189-rotate-array](https://github.com/yashspidey/DSA/tree/master/0189-rotate-array) |
 ## String
 |  |
 | ------- |
@@ -47,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0189-rotate-array](https://github.com/yashspidey/DSA/tree/master/0189-rotate-array) |
 | [0537-complex-number-multiplication](https://github.com/yashspidey/DSA/tree/master/0537-complex-number-multiplication) |
 ## Simulation
 |  |
