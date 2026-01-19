@@ -35,12 +35,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/yashspidey/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/yashspidey/DSA/tree/master/0189-rotate-array) |
 | [0287-find-the-duplicate-number](https://github.com/yashspidey/DSA/tree/master/0287-find-the-duplicate-number) |
+| [0443-string-compression](https://github.com/yashspidey/DSA/tree/master/0443-string-compression) |
 ## String
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/yashspidey/DSA/tree/master/0020-valid-parentheses) |
 | [0151-reverse-words-in-a-string](https://github.com/yashspidey/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0165-compare-version-numbers](https://github.com/yashspidey/DSA/tree/master/0165-compare-version-numbers) |
+| [0443-string-compression](https://github.com/yashspidey/DSA/tree/master/0443-string-compression) |
 | [0537-complex-number-multiplication](https://github.com/yashspidey/DSA/tree/master/0537-complex-number-multiplication) |
 | [1108-defanging-an-ip-address](https://github.com/yashspidey/DSA/tree/master/1108-defanging-an-ip-address) |
 | [1816-truncate-sentence](https://github.com/yashspidey/DSA/tree/master/1816-truncate-sentence) |
