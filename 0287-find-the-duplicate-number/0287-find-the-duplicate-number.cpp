@@ -1,15 +1,30 @@
 class Solution {
 public:
     int findDuplicate(vector<int>& nums) {
-        unordered_set<int> s;
 
-        for (int i = 0; i < nums.size(); i++) {
+        int n = nums.size();
 
-            if (s.count(nums[i])) {
-                return nums[i];
-            }
-            s.insert(nums[i]);
+        // FLOYD CYCLE DETECTION APPROACH
+        // or TORTOISE AND HARE APPPROACH
+
+        int slow = nums[0];
+        int fast = nums[0];
+
+        slow = nums[slow];
+        fast = nums[nums[fast]];
+
+        while (slow != fast) {
+            slow = nums[slow];
+            fast = nums[nums[fast]];
         }
-        return -1;
+
+        slow = nums[0];
+
+        while (slow != fast) {
+            slow = nums[slow];
+            fast = nums[fast];
+        }
+
+        return fast;
     }
 };
