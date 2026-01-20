@@ -1,37 +1,41 @@
 class Solution {
 public:
-    int findPivot(vector<int>& nums,int n) {
+    int findPivot(vector<int>& nums, int n) {
 
-        int l = 0;
-        int r = n - 1;
+        int s = 0;
+        int e = n - 1;
+        int mid = s + (e - s) / 2;
 
-        while (l < r) {
-            int mid = l + (r - l) / 2;
+        while (s < e) {
 
-            if (nums[mid] > nums[r]) {
-                l = mid + 1;
-
+            if (nums[mid] > nums[e]) {
+                s = mid + 1;
             } else {
-                r = mid;
+                e = mid;
             }
+            mid = s + (e - s) / 2;
         }
-        return r;
+
+        return mid;
     }
 
-    int binarySearch(int l, int r, vector<int>& nums, int target) {
+    int binarySearch(int s, int e, vector<int>& nums, int target) {
         int idx = -1;
-        while (l <= r) {
-            int mid = l + (r - l) / 2;
+        while (s <= e) {
+
+            int mid = s + (e - s) / 2;
 
             if (nums[mid] == target) {
                 idx = mid;
-                break;
-            } else if (nums[mid] < target) {
-                l = mid + 1;
+                // break;
+                return idx;
+            } else if (nums[mid] > target) {
+                e = mid - 1;
             } else {
-                r = mid - 1;
+                s = mid + 1;
             }
         }
+
         return idx;
     }
 
@@ -45,8 +49,7 @@ public:
             return idx;
         }
 
-         idx = binarySearch(pivot_index, n - 1, nums, target);
-
+        idx = binarySearch(pivot_index, n - 1, nums, target);
         return idx;
     }
 };
