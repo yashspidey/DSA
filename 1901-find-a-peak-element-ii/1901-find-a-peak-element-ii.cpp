@@ -6,7 +6,7 @@ public:
         int n = mat[0].size();
 
         for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
+            for (int j = i; j < n; j++) {
 
                 if ((i == 0 || mat[i][j] > mat[i - 1][j]) &&
                     (i == m - 1 || mat[i][j] > mat[i + 1][j]) &&
