@@ -10,9 +10,12 @@ public:
         while (s <= e) {
 
             int mid = s + (e - s) / 2;
-            if (matrix[mid / n][mid % n] > target) {
+            int row = mid / n;
+            int col = mid % n;
+
+            if (matrix[row][col] > target) {
                 e = mid - 1;
-            } else if (matrix[mid / n][mid % n] < target) {
+            } else if (matrix[row][col] < target) {
                 s = mid + 1;
             } else {
                 return true;
