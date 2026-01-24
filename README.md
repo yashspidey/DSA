@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/yashspidey/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/yashspidey/DSA/tree/master/0189-rotate-array) |
 | [0287-find-the-duplicate-number](https://github.com/yashspidey/DSA/tree/master/0287-find-the-duplicate-number) |
+| [0463-island-perimeter](https://github.com/yashspidey/DSA/tree/master/0463-island-perimeter) |
 | [0643-maximum-average-subarray-i](https://github.com/yashspidey/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [0704-binary-search](https://github.com/yashspidey/DSA/tree/master/0704-binary-search) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/yashspidey/DSA/tree/master/0852-peak-index-in-a-mountain-array) |
@@ -95,5 +96,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/yashspidey/DSA/tree/master/0074-search-a-2d-matrix) |
+| [0463-island-perimeter](https://github.com/yashspidey/DSA/tree/master/0463-island-perimeter) |
 | [1901-find-a-peak-element-ii](https://github.com/yashspidey/DSA/tree/master/1901-find-a-peak-element-ii) |
+## Depth-First Search
+|  |
+| ------- |
+| [0463-island-perimeter](https://github.com/yashspidey/DSA/tree/master/0463-island-perimeter) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0463-island-perimeter](https://github.com/yashspidey/DSA/tree/master/0463-island-perimeter) |
 <!---LeetCode Topics End-->
