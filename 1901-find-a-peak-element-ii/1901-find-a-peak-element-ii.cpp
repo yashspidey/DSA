@@ -27,8 +27,8 @@ public:
             int mid = s + (e - s) / 2;
 
             int maxRowElement = findMaxRowElement(mat, m, n, mid);
-            int left = mid - 1 >= 0 ? mat[maxRowElement - 1][mid] : -1;
-            int right = mid + 1 < n - 1 ? mat[maxRowElement + 1][mid] : -1;
+            int left = mid - 1 >= 0 ? mat[maxRowElement][mid - 1] : -1;
+            int right = mid + 1 < n ? mat[maxRowElement][mid + 1] : -1;
 
             if (mat[maxRowElement][mid] > left &&
                 mat[maxRowElement][mid] > right) {
