@@ -4,14 +4,21 @@ public:
 
         int rows = matrix.size();
         int cols = matrix[0].size();
-        vector<vector<int>> ans(rows, vector<int>(cols));
+
+        // transpose
 
         for (int row = 0; row < rows; row++) {
-            for (int col = 0; col < cols; col++) {
+            for (int col = row; col < cols; col++) {
 
-                ans[col][rows - 1 - row] = matrix[row][col];
+                swap(matrix[row][col], matrix[col][row]);
             }
         }
-        matrix = ans;
+
+        // reverse matrix
+
+        for (int row = 0; row < rows; row++) {
+
+            reverse(matrix[row].begin(), matrix[row].end());
+        }
     }
 };
