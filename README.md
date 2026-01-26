@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/yashspidey/DSA/tree/master/0048-rotate-image) |
+| [0050-powx-n](https://github.com/yashspidey/DSA/tree/master/0050-powx-n) |
 | [0189-rotate-array](https://github.com/yashspidey/DSA/tree/master/0189-rotate-array) |
 | [0509-fibonacci-number](https://github.com/yashspidey/DSA/tree/master/0509-fibonacci-number) |
 | [0537-complex-number-multiplication](https://github.com/yashspidey/DSA/tree/master/0537-complex-number-multiplication) |
@@ -127,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/yashspidey/DSA/tree/master/0050-powx-n) |
 | [0509-fibonacci-number](https://github.com/yashspidey/DSA/tree/master/0509-fibonacci-number) |
 ## Memoization
 |  |
