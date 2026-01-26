@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0704-binary-search](https://github.com/yashspidey/DSA/tree/master/0704-binary-search) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/yashspidey/DSA/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/yashspidey/DSA/tree/master/0961-n-repeated-element-in-size-2n-array) |
+| [1200-minimum-absolute-difference](https://github.com/yashspidey/DSA/tree/master/1200-minimum-absolute-difference) |
 | [1816-truncate-sentence](https://github.com/yashspidey/DSA/tree/master/1816-truncate-sentence) |
 | [1901-find-a-peak-element-ii](https://github.com/yashspidey/DSA/tree/master/1901-find-a-peak-element-ii) |
 | [2951-find-the-peaks](https://github.com/yashspidey/DSA/tree/master/2951-find-the-peaks) |
@@ -131,4 +132,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0509-fibonacci-number](https://github.com/yashspidey/DSA/tree/master/0509-fibonacci-number) |
+## Sorting
+|  |
+| ------- |
+| [1200-minimum-absolute-difference](https://github.com/yashspidey/DSA/tree/master/1200-minimum-absolute-difference) |
 <!---LeetCode Topics End-->
