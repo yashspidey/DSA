@@ -46,7 +46,6 @@ public:
                     mat[i][left] = num++;
                 }
                 left++;
-                ;
             }
 
             dir = (dir + 1) % 4;
