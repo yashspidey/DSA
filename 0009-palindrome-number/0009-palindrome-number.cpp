@@ -2,21 +2,20 @@ class Solution {
 public:
     bool isPalindrome(int x) {
 
-        string s = to_string(x);
-
-        int n = s.size();
-        auto i = 0;
-        auto j = n - 1;
-
-        while (i < j) { // i < j
-
-            if (s[i] != s[j]) {
-                return false;
-            }
-            i++;
-            j--;
+        if (x < 0) {
+            return false;
         }
 
-        return true;
+        int n = x;
+        long revNum = 0;
+
+        while (n != 0) {
+
+            int lastDigit = n % 10;
+            n = n / 10;
+            revNum = revNum * 10 + lastDigit;
+        }
+
+        return revNum == x;
     }
 };
