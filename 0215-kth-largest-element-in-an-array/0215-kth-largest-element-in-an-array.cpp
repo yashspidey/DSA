@@ -1,4 +1,4 @@
-class Solution {
+class Solution {  // QUICK SELECT ( HOARE'S PARTITION ALGORITHM )
 public:
     int partition(vector<int>& nums, int s, int e) {
 
