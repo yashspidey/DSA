@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0463-island-perimeter](https://github.com/yashspidey/DSA/tree/master/0463-island-perimeter) |
 | [0643-maximum-average-subarray-i](https://github.com/yashspidey/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [0704-binary-search](https://github.com/yashspidey/DSA/tree/master/0704-binary-search) |
+| [0744-find-smallest-letter-greater-than-target](https://github.com/yashspidey/DSA/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/yashspidey/DSA/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/yashspidey/DSA/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [1200-minimum-absolute-difference](https://github.com/yashspidey/DSA/tree/master/1200-minimum-absolute-difference) |
@@ -103,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/yashspidey/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0287-find-the-duplicate-number](https://github.com/yashspidey/DSA/tree/master/0287-find-the-duplicate-number) |
 | [0704-binary-search](https://github.com/yashspidey/DSA/tree/master/0704-binary-search) |
+| [0744-find-smallest-letter-greater-than-target](https://github.com/yashspidey/DSA/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/yashspidey/DSA/tree/master/0852-peak-index-in-a-mountain-array) |
 | [1901-find-a-peak-element-ii](https://github.com/yashspidey/DSA/tree/master/1901-find-a-peak-element-ii) |
 ## Bit Manipulation
