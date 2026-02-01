@@ -1,4 +1,4 @@
-class Solution {  // QUICK SELECT ( HOARE'S PARTITION ALGORITHM )
+class Solution { // QUICK SELECT ( HOARE'S PARTITION ALGORITHM )
 public:
     int partition(vector<int>& nums, int s, int e) {
 
@@ -56,13 +56,13 @@ public:
             pivot_idx = partition(nums, s, e);
 
             if (pivot_idx == k - 1) {
-                break;
+                return nums[pivot_idx];
             } else if (pivot_idx > k - 1) {
                 e = pivot_idx - 1;
             } else {
                 s = pivot_idx + 1;
             }
         }
-        return nums[pivot_idx];
+        return -1;
     }
 };
