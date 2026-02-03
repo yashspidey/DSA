@@ -3,19 +3,16 @@ public:
     int missingNumber(vector<int>& nums) {
 
         int n = nums.size();
-
-        unordered_set<int> st;
+        int xor1 = 0;
+        int xor2 = 0;
 
         for (int i = 0; i < n; i++) {
-            st.insert(nums[i]);
+            xor1 ^= i;
+            xor2 ^= nums[i];
         }
 
-        for (int i = 0; i <= n; i++) {
-            if (!st.count(i)) {
-                return i;
-            }
-        }
+        xor1 ^= n; // most optimal approach
 
-        return -1;
+        return xor1 ^ xor2;
     }
 };
