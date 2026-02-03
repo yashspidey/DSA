@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/yashspidey/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/yashspidey/DSA/tree/master/0189-rotate-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/yashspidey/DSA/tree/master/0215-kth-largest-element-in-an-array) |
+| [0268-missing-number](https://github.com/yashspidey/DSA/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/yashspidey/DSA/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/yashspidey/DSA/tree/master/0287-find-the-duplicate-number) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/yashspidey/DSA/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
@@ -40,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/yashspidey/DSA/tree/master/0036-valid-sudoku) |
 | [0141-linked-list-cycle](https://github.com/yashspidey/DSA/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/yashspidey/DSA/tree/master/0142-linked-list-cycle-ii) |
+| [0268-missing-number](https://github.com/yashspidey/DSA/tree/master/0268-missing-number) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/yashspidey/DSA/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0457-circular-array-loop](https://github.com/yashspidey/DSA/tree/master/0457-circular-array-loop) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/yashspidey/DSA/tree/master/0961-n-repeated-element-in-size-2n-array) |
@@ -90,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/yashspidey/DSA/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/yashspidey/DSA/tree/master/0050-powx-n) |
 | [0189-rotate-array](https://github.com/yashspidey/DSA/tree/master/0189-rotate-array) |
+| [0268-missing-number](https://github.com/yashspidey/DSA/tree/master/0268-missing-number) |
 | [0509-fibonacci-number](https://github.com/yashspidey/DSA/tree/master/0509-fibonacci-number) |
 | [0537-complex-number-multiplication](https://github.com/yashspidey/DSA/tree/master/0537-complex-number-multiplication) |
 ## Simulation
@@ -108,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/yashspidey/DSA/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/yashspidey/DSA/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/yashspidey/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0268-missing-number](https://github.com/yashspidey/DSA/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/yashspidey/DSA/tree/master/0287-find-the-duplicate-number) |
 | [0540-single-element-in-a-sorted-array](https://github.com/yashspidey/DSA/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/yashspidey/DSA/tree/master/0704-binary-search) |
@@ -117,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/yashspidey/DSA/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/yashspidey/DSA/tree/master/0287-find-the-duplicate-number) |
 ## Enumeration
 |  |
@@ -158,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/yashspidey/DSA/tree/master/0215-kth-largest-element-in-an-array) |
+| [0268-missing-number](https://github.com/yashspidey/DSA/tree/master/0268-missing-number) |
 | [1200-minimum-absolute-difference](https://github.com/yashspidey/DSA/tree/master/1200-minimum-absolute-difference) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/yashspidey/DSA/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 ## Divide and Conquer
