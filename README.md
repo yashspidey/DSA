@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/yashspidey/DSA/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/yashspidey/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0033-search-in-rotated-sorted-array](https://github.com/yashspidey/DSA/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/yashspidey/DSA/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
@@ -42,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/yashspidey/DSA/tree/master/0001-two-sum) |
 | [0036-valid-sudoku](https://github.com/yashspidey/DSA/tree/master/0036-valid-sudoku) |
 | [0141-linked-list-cycle](https://github.com/yashspidey/DSA/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/yashspidey/DSA/tree/master/0142-linked-list-cycle-ii) |
