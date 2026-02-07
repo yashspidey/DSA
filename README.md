@@ -131,11 +131,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/yashspidey/DSA/tree/master/0136-single-number) |
 | [0268-missing-number](https://github.com/yashspidey/DSA/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/yashspidey/DSA/tree/master/0287-find-the-duplicate-number) |
+| [3827-count-monobit-integers](https://github.com/yashspidey/DSA/tree/master/3827-count-monobit-integers) |
 ## Enumeration
 |  |
 | ------- |
 | [2951-find-the-peaks](https://github.com/yashspidey/DSA/tree/master/2951-find-the-peaks) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/yashspidey/DSA/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
+| [3827-count-monobit-integers](https://github.com/yashspidey/DSA/tree/master/3827-count-monobit-integers) |
 ## Matrix
 |  |
 | ------- |
