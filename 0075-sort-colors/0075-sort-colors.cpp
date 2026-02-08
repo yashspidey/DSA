@@ -1,58 +1,38 @@
 class Solution {
 public:
-    void merge(vector<int>& nums, int st, int mid, int end) {
-        vector<int> temp;
-        int i = st;
-        int j = mid + 1;
+    void sortColors(vector<int>& nums) {
 
-        while (i <= mid && j <= end) {
-            if (nums[i] < nums[j]) {
-                temp.push_back(nums[i]);
-                i++;
+        int zero = 0;
+        int one = 0;
+        int two = 0;
+        int n = nums.size();
+
+        for (int i = 0; i < n; i++) {
+
+            if (nums[i] == 0) {
+                zero++;
+            } else if (nums[i] == 1) {
+                one++;
             } else {
-                temp.push_back(nums[j]);
-                j++;
+                two++;
             }
         }
 
-        while (i <= mid) {
+        int index = 0;
 
-            temp.push_back(nums[i]);
-            i++;
+        while (zero--) {
+            nums[index] = 0;
+            index++;
         }
 
-        while (j <= end) {
-
-            temp.push_back(nums[j]);
-            j++;
+        while (one--) {
+            nums[index] = 1;
+            index++;
         }
-
-        for (int i = 0; i < temp.size(); i++) {
-            nums[i + st] = temp[i];
+        
+        while (two--) {
+            nums[index] = 2;
+            index++;
         }
-    }
-
-    void mergeSort(vector<int>& nums, int st, int end) {
-
-        int mid = st + (end - st) / 2;
-
-        if (st < end) {
-
-            // left
-            mergeSort(nums, st, mid);
-            // right
-            mergeSort(nums, mid + 1, end);
-
-            merge(nums, st, mid, end);
-        }
-    }
-
-    void sortColors(vector<int>& nums) {
-
-        int n = nums.size();
-        int st = 0;
-        int end = n - 1;
-
-        mergeSort(nums, st, end);
     }
 };
