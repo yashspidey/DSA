@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/yashspidey/DSA/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/yashspidey/DSA/tree/master/0059-spiral-matrix-ii) |
 | [0074-search-a-2d-matrix](https://github.com/yashspidey/DSA/tree/master/0074-search-a-2d-matrix) |
+| [0075-sort-colors](https://github.com/yashspidey/DSA/tree/master/0075-sort-colors) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/yashspidey/DSA/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0136-single-number](https://github.com/yashspidey/DSA/tree/master/0136-single-number) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/yashspidey/DSA/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -65,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/yashspidey/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0075-sort-colors](https://github.com/yashspidey/DSA/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/yashspidey/DSA/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/yashspidey/DSA/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/yashspidey/DSA/tree/master/0142-linked-list-cycle-ii) |
@@ -172,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/yashspidey/DSA/tree/master/0075-sort-colors) |
 | [0215-kth-largest-element-in-an-array](https://github.com/yashspidey/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0268-missing-number](https://github.com/yashspidey/DSA/tree/master/0268-missing-number) |
 | [0912-sort-an-array](https://github.com/yashspidey/DSA/tree/master/0912-sort-an-array) |
