@@ -8,7 +8,7 @@ public:
         for (int i = 0; i < n; i++) {
 
             int rem = target - nums[i];
-            
+
             if (mp.find(rem) != mp.end()) {
                 return {i, mp[rem]};
             }
