@@ -51,7 +51,7 @@ int main()
 {
 
     Employee emp("yash", 100000);
-    emp.display();
+    emp.display(); 
     emp.setName("jhatu");
     cout << emp.getName();
 }
