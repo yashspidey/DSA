@@ -9,15 +9,12 @@ private:
             return;
         }
 
-
         for (int i = index; i < nums.size(); i++) {
 
             swap(nums[index], nums[i]);
             recurPermute(index + 1, ans, nums);
             swap(nums[index], nums[i]);
-            
         }
-
     }
 
 public:
@@ -27,7 +24,5 @@ public:
         vector<vector<int>> ans;
         recurPermute(0, ans, nums);
         return ans;
-
     }
-
 };
