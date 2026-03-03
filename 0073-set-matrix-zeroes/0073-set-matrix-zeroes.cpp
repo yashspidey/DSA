@@ -17,18 +17,12 @@ public:
         }
 
         for (int i = 0; i < m; i++) {
-            if (col[i] == 1) {
-                for (int j = 0; j < n; j++) {
+            for (int j = 0; j < n; j++) {
+
+                if (col[i] || row[j]) {
                     matrix[i][j] = 0;
                 }
             }
-        }
-        for (int i = 0; i < n; i++) {
-            if (row[i] == 1) {
-                    for (int j = 0; j < m; j++) {
-                        matrix[j][i] = 0;
-                    }
-                }
         }
     }
 };
