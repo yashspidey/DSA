@@ -3,7 +3,6 @@ public:
     vector<int> findErrorNums(vector<int>& nums) {
 
         int n = nums.size();
-        vector<int> ans;
         unordered_set<int> st;
         int array_sum = 0;
         int unique_sum = 0;
@@ -25,8 +24,6 @@ public:
         int duplicate = array_sum - unique_sum;
         int missing = original_sum - unique_sum;
 
-        ans.push_back(duplicate);
-        ans.push_back(missing);
-        return ans;
+        return {duplicate, missing};
     }
 };
