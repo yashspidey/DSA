@@ -10,6 +10,7 @@ public:
             mp[nums[i]]++;
 
             if (mp[nums[i]] > n / 2) {
+
                 return nums[i];
             }
         }
