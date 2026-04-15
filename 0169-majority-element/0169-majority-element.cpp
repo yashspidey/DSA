@@ -2,19 +2,24 @@ class Solution {
 public:
     int majorityElement(vector<int>& nums) {
 
+        // moores voting algorithm
+
+        int count = 0;
+        int el = nums[0];
         int n = nums.size();
-        unordered_map<int, int> mp;
 
         for (int i = 0; i < n; i++) {
 
-            mp[nums[i]]++;
-
-            if (mp[nums[i]] > n / 2) {
-
-                return nums[i];
+            if (count == 0) {
+                el = nums[i];
+                count++;
+            } else if (el != nums[i]) {
+                count--;
+            } else {
+                count++;
             }
         }
 
-        return -1;
+        return el;
     }
 };
