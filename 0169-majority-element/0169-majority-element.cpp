@@ -2,15 +2,24 @@ class Solution {
 public:
     int majorityElement(vector<int>& nums) {
 
+        // moores voting algorithm
+
+        int count = 0;
+        int el = nums[0];
         int n = nums.size();
 
-        if (n == 1) {
+        for (int i = 0; i < n; i++) {
 
-            return nums[0];
+            if (count == 0) {
+                el = nums[i];
+                count++;
+            } else if (el != nums[i]) {
+                count--;
+            } else {
+                count++;
+            }
         }
 
-        sort(nums.begin(), nums.end());
-
-       return nums[n / 2];
+        return el;
     }
 };
