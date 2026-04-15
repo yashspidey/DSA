@@ -4,22 +4,13 @@ public:
 
         int n = nums.size();
 
-        for (int i = 0; i < n; i++) {
+        if (n == 1) {
 
-            int count = 0;
-
-            for (int j = 0; j < n; j++) {
-
-                if (nums[i] == nums[j]) {
-                    count++;
-                }
-            }
-
-            if (count > n / 2) {
-                return nums[i];
-            }
+            return nums[0];
         }
 
-        return -1;
+        sort(nums.begin(), nums.end());
+
+       return nums[n / 2];
     }
 };
