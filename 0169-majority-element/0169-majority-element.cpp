@@ -5,21 +5,21 @@ public:
         // moores voting algorithm
 
         int count = 0;
-        int el = nums[0];
+        int maj = NULL;
         int n = nums.size();
 
         for (int i = 0; i < n; i++) {
 
-            if (count == 0) {
-                el = nums[i];
+            if (maj == nums[i]) {
                 count++;
-            } else if (el != nums[i]) {
-                count--;
+            } else if (count == 0) {
+                count++;
+                maj = nums[i];
             } else {
-                count++;
+                count--;
             }
         }
 
-        return el;
+        return maj;
     }
 };
