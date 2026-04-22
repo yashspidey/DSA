@@ -20,11 +20,11 @@ public:
             }
         }
 
-        while(i >= 0){
-             nums1[k] = nums1[i];
-                k--;
-                i--;
-        }
+        // while(i >= 0){
+        //      nums1[k] = nums1[i];
+        //         k--;
+        //         i--;
+        // }
 
           while(j >= 0){
              nums1[k] = nums2[j];
