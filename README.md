@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0457-circular-array-loop](https://github.com/yashspidey/DSA/tree/master/0457-circular-array-loop) |
 | [0463-island-perimeter](https://github.com/yashspidey/DSA/tree/master/0463-island-perimeter) |
 | [0485-max-consecutive-ones](https://github.com/yashspidey/DSA/tree/master/0485-max-consecutive-ones) |
+| [0493-reverse-pairs](https://github.com/yashspidey/DSA/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/yashspidey/DSA/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/yashspidey/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0643-maximum-average-subarray-i](https://github.com/yashspidey/DSA/tree/master/0643-maximum-average-subarray-i) |
@@ -147,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/yashspidey/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0268-missing-number](https://github.com/yashspidey/DSA/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/yashspidey/DSA/tree/master/0287-find-the-duplicate-number) |
+| [0493-reverse-pairs](https://github.com/yashspidey/DSA/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/yashspidey/DSA/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/yashspidey/DSA/tree/master/0704-binary-search) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/yashspidey/DSA/tree/master/0744-find-smallest-letter-greater-than-target) |
@@ -222,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/yashspidey/DSA/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/yashspidey/DSA/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/yashspidey/DSA/tree/master/0215-kth-largest-element-in-an-array) |
+| [0493-reverse-pairs](https://github.com/yashspidey/DSA/tree/master/0493-reverse-pairs) |
 | [0912-sort-an-array](https://github.com/yashspidey/DSA/tree/master/0912-sort-an-array) |
 ## Heap (Priority Queue)
 |  |
@@ -241,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Merge Sort
 |  |
 | ------- |
+| [0493-reverse-pairs](https://github.com/yashspidey/DSA/tree/master/0493-reverse-pairs) |
 | [0912-sort-an-array](https://github.com/yashspidey/DSA/tree/master/0912-sort-an-array) |
 ## Bucket Sort
 |  |
@@ -264,4 +268,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/yashspidey/DSA/tree/master/0128-longest-consecutive-sequence) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/yashspidey/DSA/tree/master/0493-reverse-pairs) |
+## Segment Tree
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/yashspidey/DSA/tree/master/0493-reverse-pairs) |
+## Ordered Set
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/yashspidey/DSA/tree/master/0493-reverse-pairs) |
 <!---LeetCode Topics End-->
