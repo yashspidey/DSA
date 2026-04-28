@@ -1,55 +1,57 @@
 class Solution {
 public:
-    int rightMostPos(int s, int e, vector<int>& nums, int target) {
+    int starting(vector<int>& nums, int low, int high, int target) {
 
-        int mid = s + (e - s) / 2;
-        int rightMost = -1;
+        int ans = -1;
 
-        while (s <= e) {
+        while (low <= high) {
 
-            if (nums[mid] == target) { // 5,7,7,8,8,10
-                rightMost = mid;
-                s = mid + 1;
+            int mid = low + (high - low) / 2;
 
-            } else if (nums[mid] > target) {
-                e = mid - 1;
+            if (nums[mid] == target) {
+                ans = mid;
+                high = mid - 1;
+            } else if (nums[mid] < target) {
+                low = mid + 1;
             } else {
-                s = mid + 1;
+                high = mid - 1;
             }
-            mid = s + (e - s) / 2;
         }
-        return rightMost;
+
+        return ans;
     }
-    int leftMostPos(int s, int e, vector<int>& nums, int target) {
 
-        int mid = s + (e - s) / 2;
-        int leftMost = -1;
+    int ending(vector<int>& nums, int low, int high, int target) {
 
-        while (s <= e) {
+        int ans = -1;
 
-            if (nums[mid] == target) { // 5,7,7,8,8,8
-                leftMost = mid;
+        while (low <= high) {
 
-                e = mid - 1;
+            int mid = low + (high - low) / 2;
 
-            } else if (nums[mid] > target) {
-                e = mid - 1;
+            if (nums[mid] == target) {
+                ans = mid;
+                low = mid + 1;
+
+            } else if (nums[mid] < target) {
+                low = mid + 1;
             } else {
-                s = mid + 1;
+                high = mid - 1;
             }
-            mid = s + (e - s) / 2;
         }
-        return leftMost;
+
+        return ans;
     }
 
     vector<int> searchRange(vector<int>& nums, int target) {
 
         int n = nums.size();
-        int s = 0;
-        int e = n - 1;
-        int ending = rightMostPos(s, e, nums, target);
-        int starting = leftMostPos(s, e, nums, target);
+        int low = 0;
+        int high = n - 1;
 
-        return {starting, ending};
+        int start = starting(nums, low, high, target);
+        int end = ending(nums, low, high, target);
+
+        return {start, end};
     }
 };
