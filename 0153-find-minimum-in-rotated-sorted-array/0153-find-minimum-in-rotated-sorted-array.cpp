@@ -9,6 +9,11 @@ public:
         while (low <= high) {
             int mid = low + (high - low) / 2;
 
+            if (nums[low] <= nums[high]) {
+                ansMin = min(ansMin, nums[low]);
+                break;
+            }
+
             if (nums[low] <= nums[mid]) {
                 ansMin = min(ansMin, nums[low]);
                 low = mid + 1;
