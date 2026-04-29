@@ -4,7 +4,7 @@ public:
 
         int n = nums.size();
         int low = 1;
-        int high = n - 1;
+        int high = n - 2;
 
         if (n == 1) {
             return 0;
