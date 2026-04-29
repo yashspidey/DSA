@@ -1,7 +1,6 @@
 class Solution {
 public:
     int singleNonDuplicate(vector<int>& nums) {
-
         int n = nums.size();
         int ans = 0;
 
