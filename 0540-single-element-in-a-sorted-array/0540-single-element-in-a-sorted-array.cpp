@@ -3,7 +3,7 @@ public:
     int singleNonDuplicate(vector<int>& nums) {
         int n = nums.size();
 
-        if (n < 3) {
+        if (n == 1) {
             return nums[0];
         }
 
