@@ -6,11 +6,7 @@ public:
 
         for (int pile : piles) {
 
-            totalHours += pile / k;
-
-            if (pile % k) {
-                totalHours++;
-            }
+            totalHours += ceil((double)pile / (double)k);
         }
 
         return totalHours;
