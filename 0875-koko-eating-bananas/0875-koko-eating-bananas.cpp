@@ -6,8 +6,13 @@ public:
 
         for (int pile : piles) {
 
-            // totalHours += ceil((double)pile / (double)k); [ can use this ceil
+            // totalHours += ceil((double)pile / (double)k); [ formula 1 ]
+            // [ can use this ceil
             // stl to clculate hours or else ]
+
+            // totalHours += (pile + k - 1) / k; [ formula 2 to calc ceil ]
+
+            // [formula 3 without ceil]
 
             totalHours += pile / k;
 
