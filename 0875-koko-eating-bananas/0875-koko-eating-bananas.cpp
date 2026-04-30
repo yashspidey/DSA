@@ -6,7 +6,14 @@ public:
 
         for (int pile : piles) {
 
-            totalHours += ceil((double)pile / (double)k);
+            // totalHours += ceil((double)pile / (double)k); [ can use this ceil
+            // stl to clculate hours or else ]
+
+            totalHours += pile / k;
+
+            if (pile % k) {
+                totalHours++;
+            }
         }
 
         return totalHours;
