@@ -20,6 +20,6 @@ public:
             }
         }
 
-        return k + high + 1;
+        return k + low;
     }
 };
