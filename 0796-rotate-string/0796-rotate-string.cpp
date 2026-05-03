@@ -23,19 +23,12 @@ public:
 
         while (count < n) {
 
-            reverse(s.begin() + 1, s.end());
-            reverse(s.begin(), s.end());
+            rotate(s.begin(), s.begin() + 1, s.end());
+
             count++;
 
-            for (int i = 0; i < n; i++) {
-
-                if (s[i] != goal[i]) {
-                    break;
-                }
-
-                if (i == n - 1 && s[i] == goal[i]) {
-                    return true;
-                }
+            if (s == goal) {
+                return true;
             }
         }
 
