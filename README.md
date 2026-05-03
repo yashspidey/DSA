@@ -119,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0165-compare-version-numbers](https://github.com/yashspidey/DSA/tree/master/0165-compare-version-numbers) |
 | [0443-string-compression](https://github.com/yashspidey/DSA/tree/master/0443-string-compression) |
 | [0537-complex-number-multiplication](https://github.com/yashspidey/DSA/tree/master/0537-complex-number-multiplication) |
+| [0796-rotate-string](https://github.com/yashspidey/DSA/tree/master/0796-rotate-string) |
 | [1108-defanging-an-ip-address](https://github.com/yashspidey/DSA/tree/master/1108-defanging-an-ip-address) |
 | [1816-truncate-sentence](https://github.com/yashspidey/DSA/tree/master/1816-truncate-sentence) |
 ## Stack
@@ -296,4 +297,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/yashspidey/DSA/tree/master/0493-reverse-pairs) |
+## String Matching
+|  |
+| ------- |
+| [0796-rotate-string](https://github.com/yashspidey/DSA/tree/master/0796-rotate-string) |
 <!---LeetCode Topics End-->
