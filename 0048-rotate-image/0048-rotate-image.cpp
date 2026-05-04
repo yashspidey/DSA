@@ -2,21 +2,23 @@ class Solution {
 public:
     void rotate(vector<vector<int>>& matrix) {
 
-        int n = matrix.size();
+        int rows = matrix.size();
+        int cols = matrix[0].size();
 
-        // transpose - 1st row -> 1st col, 2nd row -> 2nd col, 3rd row -> 3rd col
+        // transpose
 
-        for (int i = 0; i <= n - 2; i++) {
-            for (int j = i + 1; j < n; j++) {
+        for (int row = 0; row < rows; row++) {
+            for (int col = row; col < cols; col++) {
 
-                swap(matrix[i][j], matrix[j][i]);
+                swap(matrix[row][col], matrix[col][row]);
             }
         }
 
-        // reverse the columns 
+        // reverse matrix
 
-        for (int i = 0; i < n; i++) {
-            reverse(matrix[i].begin(), matrix[i].end());
+        for (int row = 0; row < rows; row++) {
+
+            reverse(matrix[row].begin(), matrix[row].end());
         }
     }
 };
