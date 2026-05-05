@@ -29,19 +29,26 @@ public:
         int low = 0;
         int high = m - 1;
 
-        while (low <= high) {
+        for (int i = 0; i < m; i++) {
 
-            int mid = low + (high - low) / 2;
-
-            if (target < matrix[mid][0]) {
-                high = mid - 1;
-            } else if (target > matrix[mid][n - 1]) {
-                low = mid + 1;
-            } else {
-
-                return colBinarySearch(matrix, mid, target);
+            if (colBinarySearch(matrix, i, target)) {
+                return true;
             }
         }
+
+        // while (low <= high) {
+
+        //     int mid = low + (high - low) / 2;
+
+        //     if (target < matrix[mid][0]) {
+        //         high = mid - 1;
+        //     } else if (target > matrix[mid][n - 1]) {
+        //         low = mid + 1;
+        //     } else {
+
+        //         return colBinarySearch(matrix, mid, target);
+        //     }
+        // }
 
         return false;
     }
