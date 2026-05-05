@@ -5,8 +5,6 @@ public:
         int m = nums1.size();
         int n = nums2.size();
 
-
-
         vector<int> ans;
 
         int i = 0;
@@ -14,22 +12,18 @@ public:
 
         while (i < m && j < n) {
             if (nums1[i] <= nums2[j]) {
-                ans.push_back(nums1[i]);
-                i++;
+                ans.push_back(nums1[i++]);
             } else {
-                ans.push_back(nums2[j]);
-                j++;
+                ans.push_back(nums2[j++]);
             }
         }
 
         while (i < m) {
-            ans.push_back(nums1[i]);
-            i++;
+            ans.push_back(nums1[i++]);
         }
 
         while (j < n) {
-            ans.push_back(nums2[j]);
-            j++;
+            ans.push_back(nums2[j++]);
         }
 
         int len = ans.size();
