@@ -26,29 +26,29 @@ public:
 
         int m = matrix.size();
         int n = matrix[0].size();
-        // int low = 0;
-        // int high = m - 1;
+        int low = 0;
+        int high = m - 1;
 
-        // while (low <= high) {
+        while (low <= high) {
 
-        //     int mid = low + (high - low) / 2;
+            int mid = low + (high - low) / 2;
 
-        //     if (target < matrix[mid][0]) {
-        //         high = mid - 1;
-        //     } else if (target > matrix[mid][n - 1]) {
-        //         low = mid + 1;
-        //     } else {
+            if (target < matrix[mid][0]) {
+                high = mid - 1;
+            } else if (target > matrix[mid][n - 1]) {
+                low = mid + 1;
+            } else {
 
-        //         return colBinarySearch(matrix[mid], target);
-        //     }
-        // }
-
-        for (int i = 0; i < m; i++) {
-
-            if (matrix[i][0] <= target && target <= matrix[i][n - 1]) {
-                return colBinarySearch(matrix[i], target);
+                return colBinarySearch(matrix[mid], target);
             }
         }
+
+        // for (int i = 0; i < m; i++) {
+
+        //     if (matrix[i][0] <= target && target <= matrix[i][n - 1]) {
+        //         return colBinarySearch(matrix[i], target);
+        //     }
+        // }
 
         return false;
     }
