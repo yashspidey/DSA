@@ -30,11 +30,9 @@ public:
         double median = 0;
 
         if (len % 2 != 0) {
-            median = ans[len / 2];
-        } else {
-            median = ((double)ans[len / 2] + ans[(len / 2) - 1]) / 2.0;
+            return median = ans[len / 2];
         }
-
-        return median;
+        
+        return median = ((double)ans[len / 2] + ans[(len / 2) - 1]) / 2.0;
     }
 };
