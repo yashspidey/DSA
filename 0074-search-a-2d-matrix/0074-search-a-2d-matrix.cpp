@@ -1,8 +1,8 @@
 class Solution {
 public:
-    bool colBinarySearch(vector<vector<int>>& matrix, int rowIdx, int target) {
+    bool colBinarySearch(vector<int> matrix, int target) {
 
-        int n = matrix[rowIdx].size();
+        int n = matrix.size();
         int low = 0;
         int high = n - 1;
 
@@ -10,9 +10,9 @@ public:
 
             int mid = low + (high - low) / 2;
 
-            if (target == matrix[rowIdx][mid]) {
+            if (target == matrix[mid]) {
                 return true;
-            } else if (target < matrix[rowIdx][mid]) {
+            } else if (target < matrix[mid]) {
                 high = mid - 1;
             } else {
                 low = mid + 1;
@@ -26,29 +26,29 @@ public:
 
         int m = matrix.size();
         int n = matrix[0].size();
-        int low = 0;
-        int high = m - 1;
+        // int low = 0;
+        // int high = m - 1;
 
-        while (low <= high) {
+        // while (low <= high) {
 
-            int mid = low + (high - low) / 2;
+        //     int mid = low + (high - low) / 2;
 
-            if (target < matrix[mid][0]) {
-                high = mid - 1;
-            } else if (target > matrix[mid][n - 1]) {
-                low = mid + 1;
-            } else {
+        //     if (target < matrix[mid][0]) {
+        //         high = mid - 1;
+        //     } else if (target > matrix[mid][n - 1]) {
+        //         low = mid + 1;
+        //     } else {
 
-                return colBinarySearch(matrix, mid, target);
-            }
-        }
-
-        // for (int i = 0; i < m; i++) {
-
-        //     if (matrix[i][0] <= target && target <= matrix[i][n - 1]) {
-        //         return colBinarySearch(matrix, i, target);
+        //         return colBinarySearch(matrix[mid], target);
         //     }
         // }
+
+        for (int i = 0; i < m; i++) {
+
+            if (matrix[i][0] <= target && target <= matrix[i][n - 1]) {
+                return colBinarySearch(matrix[i], target);
+            }
+        }
 
         return false;
     }
