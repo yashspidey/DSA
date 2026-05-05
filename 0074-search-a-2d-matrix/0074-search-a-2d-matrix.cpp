@@ -4,23 +4,17 @@ public:
 
         int m = matrix.size();
         int n = matrix[0].size();
-        int s = 0;
-        int e = m * n - 1;
 
-        while (s <= e) {
+        for (int i = 0; i < m; i++) {
 
-            int mid = s + (e - s) / 2;
-            int row = mid / n;
-            int col = mid % n;
+            for (int j = 0; j < n; j++) {
 
-            if (matrix[row][col] > target) {
-                e = mid - 1;
-            } else if (matrix[row][col] < target) {
-                s = mid + 1;
-            } else {
-                return true;
+                if (matrix[i][j] == target) {
+                    return true;
+                }
             }
         }
+
         return false;
     }
 };
