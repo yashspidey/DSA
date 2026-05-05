@@ -1,6 +1,6 @@
 class Solution {
 public:
-    bool colBinarySearch(vector<int> matrix, int target) {
+    bool BinarySearch(vector<int> matrix, int target) {
 
         int n = matrix.size();
         int low = 0;
@@ -39,14 +39,14 @@ public:
                 low = mid + 1;
             } else {
 
-                return colBinarySearch(matrix[mid], target);
+                return BinarySearch(matrix[mid], target);
             }
         }
 
         // for (int i = 0; i < m; i++) {
 
         //     if (matrix[i][0] <= target && target <= matrix[i][n - 1]) {
-        //         return colBinarySearch(matrix[i], target);
+        //         return BinarySearch(matrix[i], target);
         //     }
         // }
 
