@@ -11,10 +11,12 @@ public:
         while (low <= high) {
 
             int mid = low + (high - low) / 2;
+            int row = mid / n;
+            int col = mid % n;
 
-            if (target == matrix[mid / n][mid % n]) {
+            if (target == matrix[row][col]) {
                 return true;
-            } else if (target < matrix[mid / n][mid % n]) {
+            } else if (target < matrix[row][col]) {
                 high = mid - 1;
             } else {
                 low = mid + 1;
