@@ -13,7 +13,7 @@ public:
                 return true;
             } else if (target < matrix[rows][cols]) {
                 cols--;
-            } else if (target > matrix[rows][cols]) {
+            } else {
                 rows++;
             }
         }
