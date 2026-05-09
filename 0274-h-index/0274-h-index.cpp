@@ -1,39 +1,19 @@
 class Solution {
 public:
-    bool valid(vector<int>& citations, int h) {
-
-        int count = 0;
-
-        for (int i = 0; i < citations.size(); i++) {
-
-            if (citations[i] >= h) {
-                count++;
-            }
-
-            if (count == h) {
-                return true;
-            }
-        }
-
-        return false;
-    }
-
     int hIndex(vector<int>& citations) {
 
-        int low = 1;
-        int high = 5000;
+       sort(citations.begin(), citations.end());
 
-        while (low <= high) {
+        int n = citations.size();
 
-            int mid = low + (high - low) / 2;
+        for (int i = 0; i < n; i++) {
+            int h = n - i;
 
-            if (valid(citations, mid)) {
-                low = mid + 1;
-            } else {
-                high = mid - 1;
+            if (citations[i] >= h) {
+                return h;
             }
         }
 
-        return high;
+        return 0;
     }
 };
