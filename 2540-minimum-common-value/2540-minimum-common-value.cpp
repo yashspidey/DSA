@@ -2,15 +2,15 @@ class Solution {
 public:
     int getCommon(vector<int>& nums1, vector<int>& nums2) {
 
-        map<int, int> mp;
+        unordered_set<int> st;
 
         for (int num : nums1) {
 
-            mp[num]++;
+            st.insert(num);
         }
 
         for (int num : nums2) {
-            if (mp[num] > 0) {
+            if (st.count(num)) {
                 return num;
             }
         }
