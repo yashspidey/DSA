@@ -5,10 +5,6 @@ public:
         int n = nums.size();
         int peakCount = 0;
 
-        if (n == 1) {
-            return true;
-        }
-
         for (int i = 0; i < n; i++) {
 
             int nextIndex = (i + 1) % n;
@@ -18,6 +14,6 @@ public:
             }
         }
 
-        return peakCount <= 1 ? true : false;
+        return peakCount <= 1;
     }
 };
