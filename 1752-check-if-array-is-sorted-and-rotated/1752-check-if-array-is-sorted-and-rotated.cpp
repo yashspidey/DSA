@@ -2,37 +2,26 @@ class Solution {
 public:
     bool check(vector<int>& nums) {
 
-        int n = nums.size();
-        vector<int> sorted(n);
+             int n = nums.size();
+        int a = 0;
 
-        if(n == 1){
-            return true;
-        }
-
-        for (int i = 0; i < n; i++) {
-
-            int x = i;
-
-            for (int i = 0; i < n; i++) {
-
-                sorted[(n - x + i) % n] = nums[i];
-            }
-
-            bool valid = true;
-
-            for (int i = 0; i < sorted.size() - 1; i++) {
-
-                if (sorted[i] > sorted[i + 1]) {
-                    valid = false;
-                    break;
-                }
-            }
-
-            if (valid == true) {
-                return true;
+        // Find the rotation point
+        for (int i = 0; i < n - 1; i++) {
+            if (nums[i] > nums[i + 1]) {
+                a = i + 1;
+                break;
             }
         }
 
-        return false;
+        // Rotate the array back to the sorted position
+        rotate(nums.begin(), nums.begin() + a, nums.end());
+
+        // Check if the array is sorted
+        for (int i = 0; i < n - 1; i++) {
+            if (nums[i] > nums[i + 1]) {
+                return false;
+            }
+        }
+        return true;
     }
 };
