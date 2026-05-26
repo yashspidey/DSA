@@ -7,7 +7,7 @@ public:
 
         for (char letter : word) {
 
-            if (letter < int('a')) {
+            if (letter < 'a') {
                 continue;
             }
 
