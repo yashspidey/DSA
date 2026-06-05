@@ -159,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0509-fibonacci-number](https://github.com/yashspidey/DSA/tree/master/0509-fibonacci-number) |
 | [0537-complex-number-multiplication](https://github.com/yashspidey/DSA/tree/master/0537-complex-number-multiplication) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/yashspidey/DSA/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
+| [3751-total-waviness-of-numbers-in-range-i](https://github.com/yashspidey/DSA/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 ## Simulation
 |  |
 | ------- |
@@ -212,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2951-find-the-peaks](https://github.com/yashspidey/DSA/tree/master/2951-find-the-peaks) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/yashspidey/DSA/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
+| [3751-total-waviness-of-numbers-in-range-i](https://github.com/yashspidey/DSA/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3827-count-monobit-integers](https://github.com/yashspidey/DSA/tree/master/3827-count-monobit-integers) |
 ## Matrix
 |  |
@@ -244,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/yashspidey/DSA/tree/master/0152-maximum-product-subarray) |
 | [0410-split-array-largest-sum](https://github.com/yashspidey/DSA/tree/master/0410-split-array-largest-sum) |
 | [0509-fibonacci-number](https://github.com/yashspidey/DSA/tree/master/0509-fibonacci-number) |
+| [3751-total-waviness-of-numbers-in-range-i](https://github.com/yashspidey/DSA/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 ## Recursion
 |  |
 | ------- |
