@@ -19,7 +19,7 @@ public:
                 b[a[nums[j]]]++;
                 if ((b.size() == 2 &&
                      b.begin()->first * 2 == b.rbegin()->first) ||
-                    (b.size() == 1 && a.size() == 1)) {
+                    (  a.size() == 1)) {
                     len = max(len, j - i + 1);
                 }
             }
