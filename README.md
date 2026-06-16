@@ -145,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1108-defanging-an-ip-address](https://github.com/yashspidey/DSA/tree/master/1108-defanging-an-ip-address) |
 | [1816-truncate-sentence](https://github.com/yashspidey/DSA/tree/master/1816-truncate-sentence) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/yashspidey/DSA/tree/master/3120-count-the-number-of-special-characters-i) |
+| [3612-process-string-with-special-operations-i](https://github.com/yashspidey/DSA/tree/master/3612-process-string-with-special-operations-i) |
 ## Stack
 |  |
 | ------- |
@@ -172,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0059-spiral-matrix-ii](https://github.com/yashspidey/DSA/tree/master/0059-spiral-matrix-ii) |
 | [0537-complex-number-multiplication](https://github.com/yashspidey/DSA/tree/master/0537-complex-number-multiplication) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/yashspidey/DSA/tree/master/2149-rearrange-array-elements-by-sign) |
+| [3612-process-string-with-special-operations-i](https://github.com/yashspidey/DSA/tree/master/3612-process-string-with-special-operations-i) |
 ## Binary Search
 |  |
 | ------- |
