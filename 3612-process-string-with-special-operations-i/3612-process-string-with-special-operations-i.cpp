@@ -4,8 +4,7 @@ class Solution {
 public:
     string processStr(string s) {
 
-        string result;
-       
+        string result = "";
 
         // a # b % *
 
