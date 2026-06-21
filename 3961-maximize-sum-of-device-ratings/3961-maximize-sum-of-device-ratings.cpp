@@ -1,43 +1,39 @@
 class Solution {
 public:
     long long maxRatings(vector<vector<int>>& units) {
-        int min_elem = INT_MAX;
-        int min_sec = INT_MAX;
+        int m = units.size();
+        int n = units[0].size();
 
-        long long sum_second_min = 0;
-
-        int n = units.size();
-        int m = units[0].size();
-
-        if (m == 1) {
-            long long ans = 0;
-            for (auto &row : units) {
-                ans += (long long)row[0];
+        if (n == 1) {
+            int ans = 0;
+            for (int i = 0; i < m; i++) {
+                ans += units[i][0];
             }
+
             return ans;
         }
 
-        for (int i = 0; i < n; i++) {
-            int min1 = INT_MAX;   // smallest element of that device
-            int min2 = INT_MAX;   // second smallest element of that device
+        long long sum_min2 = 0;
+        long long minelem = INT_MAX;
+        long long min2elem = INT_MAX;
 
-            for (int j = 0; j < m; j++) {
-                int x = units[i][j];
-
-                if (x < min1) {
+        for (int i = 0; i < m; i++) {
+            long long min1 = INT_MAX;
+            long long min2 = INT_MAX;
+            for (int j = 0; j < n; j++) {
+                if (units[i][j] < min1) {
                     min2 = min1;
-                    min1 = x;
-                }
-                else if (x < min2) {
-                    min2 = x;
+                    min1 = units[i][j];
+                } else if (units[i][j] < min2) {
+                    min2 = units[i][j];
                 }
             }
 
-            sum_second_min += min2;
-            min_elem = min(min_elem, min1);   // minimum element of all the elements
-            min_sec = min(min_sec, min2);     // second minimum element of the devices
+            sum_min2 += (long long)min2;
+            minelem = min(minelem, min1);
+            min2elem = min(min2elem, min2);
         }
 
-        return sum_second_min + min_elem - min_sec;
+        return sum_min2 - min2elem + minelem;
     }
 };
