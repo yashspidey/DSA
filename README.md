@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/yashspidey/DSA/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1816-truncate-sentence](https://github.com/yashspidey/DSA/tree/master/1816-truncate-sentence) |
 | [1901-find-a-peak-element-ii](https://github.com/yashspidey/DSA/tree/master/1901-find-a-peak-element-ii) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/yashspidey/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2126-destroying-asteroids](https://github.com/yashspidey/DSA/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/yashspidey/DSA/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/yashspidey/DSA/tree/master/2149-rearrange-array-elements-by-sign) |
@@ -166,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0367-valid-perfect-square](https://github.com/yashspidey/DSA/tree/master/0367-valid-perfect-square) |
 | [0509-fibonacci-number](https://github.com/yashspidey/DSA/tree/master/0509-fibonacci-number) |
 | [0537-complex-number-multiplication](https://github.com/yashspidey/DSA/tree/master/0537-complex-number-multiplication) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/yashspidey/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/yashspidey/DSA/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/yashspidey/DSA/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 ## Simulation
@@ -369,4 +371,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/yashspidey/DSA/tree/master/0204-count-primes) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/yashspidey/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
 <!---LeetCode Topics End-->
