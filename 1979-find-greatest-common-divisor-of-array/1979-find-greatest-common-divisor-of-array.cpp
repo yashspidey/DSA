@@ -1,23 +1,19 @@
 class Solution {
 public:
     int gcd(int a, int b) {
-        if (a == b) {
-            return a;
-        } else if (a == 0) {
-            return b;
-        } else if (b == 0) {
-            return a;
-        }
 
-        int maxnum = INT_MIN;
+        while (a > 0 and b > 0) {
 
-        for (int i = 1; i <= min(a, b); i++) {
-            if (a % i == 0 and b % i == 0) {
-                maxnum = max(maxnum, i);
+            if (a > b) {
+                a %= b;
+            } else {
+                b %= a;
             }
         }
-
-        return maxnum;
+        if (a == 0) {
+            return b;
+        }
+        return a;
     }
 
     int findGCD(vector<int>& nums) {
