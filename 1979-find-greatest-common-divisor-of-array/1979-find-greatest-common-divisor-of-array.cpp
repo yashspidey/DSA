@@ -2,18 +2,11 @@ class Solution {
 public:
     int gcd(int a, int b) {
 
-        while (a > 0 and b > 0) {
+        if (b == 0) {
+            return a;
+        }
 
-            if (a > b) {
-                a %= b;
-            } else {
-                b %= a;
-            }
-        }
-        if (a == 0) {
-            return b;
-        }
-        return a;
+        return gcd(b, a % b);
     }
 
     int findGCD(vector<int>& nums) {
