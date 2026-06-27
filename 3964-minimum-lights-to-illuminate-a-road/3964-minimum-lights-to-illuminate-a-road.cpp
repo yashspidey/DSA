@@ -24,25 +24,11 @@ public:
 
         // 0 , 0, 1 ,0 ,0, 1, 1, 1
         int bulb = 0;
-        int counter = 0;
         for (int i = 0; i < litup.size(); i++) {
             if (litup[i] == 0) {
-                counter++;
-            } else if (litup[i] >= 1) {
-                if (counter > 0) {
-                    bulb++;
-                    counter = 0;
-                }
-            }
-
-            if (counter == 3) {
-                counter = 0;
                 bulb++;
+                i += 2;
             }
-        }
-
-        if (counter) {
-            bulb++;
         }
 
         return bulb;
