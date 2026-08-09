@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/minimum-total-price-after-applying-discounts">4363. Minimum Total Price After Applying Discounts</a></h2><h3>Medium</h3><hr><p>You are given two integer arrays <code>prices</code> and <code>discounts</code>.</p>
+<h2><a href="https://leetcode.com/problems/minimum-total-price-after-applying-discounts/">4363. Minimum Total Price After Applying Discounts</a></h2><h3>Medium</h3><hr><p>You are given two integer arrays <code>prices</code> and <code>discounts</code>.</p>
 
 <p>The value <code>prices[i]</code> represents the price of the <code>i<sup>th</sup></code> item, and <code>discounts[j]</code> represents a discount percentage.</p>
 
