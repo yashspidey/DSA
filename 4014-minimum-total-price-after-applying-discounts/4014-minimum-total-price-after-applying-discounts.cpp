@@ -1,17 +1,27 @@
 class Solution {
 public:
     double minPrice(vector<int>& prices, vector<int>& discounts) {
-        sort(prices.rbegin(), prices.rend());
-        sort(discounts.rbegin(), discounts.rend());
+
+        sort(prices.begin(), prices.end());
+        sort(discounts.begin(), discounts.end());
+
+        int i = prices.size() - 1;
+        int j = discounts.size() - 1;
 
         double ans = 0;
 
-        for (int i = 0; i < prices.size(); i++) {
-            ans += prices[i];
+        while (i >= 0 and j >= 0) {
 
-            if (i < discounts.size()) {
-                ans -= (double)prices[i] * discounts[i] / 100.0;
-            }
+            ans += (double)prices[i] * (double)(100 - discounts[j]) / 100.0;
+
+            i--;
+            j--;
+        }
+
+        while (i >= 0) {
+
+            ans += prices[i];
+            i--;
         }
 
         return ans;
