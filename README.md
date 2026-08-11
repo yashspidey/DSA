@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2540-minimum-common-value](https://github.com/yashspidey/DSA/tree/master/2540-minimum-common-value) |
 | [2643-row-with-maximum-ones](https://github.com/yashspidey/DSA/tree/master/2643-row-with-maximum-ones) |
 | [2951-find-the-peaks](https://github.com/yashspidey/DSA/tree/master/2951-find-the-peaks) |
+| [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/yashspidey/DSA/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/yashspidey/DSA/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/yashspidey/DSA/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/yashspidey/DSA/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
@@ -98,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/yashspidey/DSA/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [1346-check-if-n-and-its-double-exist](https://github.com/yashspidey/DSA/tree/master/1346-check-if-n-and-its-double-exist) |
 | [2540-minimum-common-value](https://github.com/yashspidey/DSA/tree/master/2540-minimum-common-value) |
+| [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/yashspidey/DSA/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/yashspidey/DSA/tree/master/3120-count-the-number-of-special-characters-i) |
 ## Sliding Window
 |  |
@@ -288,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1346-check-if-n-and-its-double-exist](https://github.com/yashspidey/DSA/tree/master/1346-check-if-n-and-its-double-exist) |
 | [2126-destroying-asteroids](https://github.com/yashspidey/DSA/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/yashspidey/DSA/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
+| [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/yashspidey/DSA/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/yashspidey/DSA/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 ## Divide and Conquer
 |  |
