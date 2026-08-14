@@ -9,26 +9,19 @@ public:
 
         for (int j = 0; j < n; j++) {
 
-            if (grumpy[j] == 1) {
-                us += customers[j];
-            }
+            us += customers[j] * grumpy[j];
 
             if (j - i + 1 < minutes) {
                 continue;
             } else {
                 m = max(m, us);
-                if (grumpy[i] == 1) {
-                    us -= customers[i];
-                }
-
+                us -= customers[i] * grumpy[i];
                 i++;
             }
         }
 
         for (int i = 0; i < grumpy.size(); i++) {
-            if (grumpy[i] == 0) {
-                m += customers[i];
-            }
+            m += customers[i] * (1 - grumpy[i]);
         }
 
         return m;
