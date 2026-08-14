@@ -105,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1346-check-if-n-and-its-double-exist](https://github.com/yashspidey/DSA/tree/master/1346-check-if-n-and-its-double-exist) |
 | [2540-minimum-common-value](https://github.com/yashspidey/DSA/tree/master/2540-minimum-common-value) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/yashspidey/DSA/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
+| [3090-maximum-length-substring-with-two-occurrences](https://github.com/yashspidey/DSA/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/yashspidey/DSA/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3731-find-missing-elements](https://github.com/yashspidey/DSA/tree/master/3731-find-missing-elements) |
 ## Sliding Window
@@ -115,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1052-grumpy-bookstore-owner](https://github.com/yashspidey/DSA/tree/master/1052-grumpy-bookstore-owner) |
 | [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/yashspidey/DSA/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/yashspidey/DSA/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [3090-maximum-length-substring-with-two-occurrences](https://github.com/yashspidey/DSA/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 ## Linked List
 |  |
 | ------- |
@@ -162,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/yashspidey/DSA/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1816-truncate-sentence](https://github.com/yashspidey/DSA/tree/master/1816-truncate-sentence) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/yashspidey/DSA/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
+| [3090-maximum-length-substring-with-two-occurrences](https://github.com/yashspidey/DSA/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/yashspidey/DSA/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3612-process-string-with-special-operations-i](https://github.com/yashspidey/DSA/tree/master/3612-process-string-with-special-operations-i) |
 ## Stack
