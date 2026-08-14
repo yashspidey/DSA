@@ -15,7 +15,9 @@ public:
 
             arr[s[j] - 'a']--;
 
-            if (j - i + 1 == n) {
+            if (j - i + 1 < n) {
+                continue;
+            } else {
 
                 if (arr == vector<int>(26, 0)) {
                     res.push_back(i);
@@ -24,7 +26,6 @@ public:
                 i++;
             }
         }
-
         return res;
     }
 };
