@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1539-kth-missing-positive-number](https://github.com/yashspidey/DSA/tree/master/1539-kth-missing-positive-number) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/yashspidey/DSA/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1816-truncate-sentence](https://github.com/yashspidey/DSA/tree/master/1816-truncate-sentence) |
+| [1872-stone-game-viii](https://github.com/yashspidey/DSA/tree/master/1872-stone-game-viii) |
 | [1901-find-a-peak-element-ii](https://github.com/yashspidey/DSA/tree/master/1901-find-a-peak-element-ii) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/yashspidey/DSA/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/yashspidey/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
@@ -190,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0367-valid-perfect-square](https://github.com/yashspidey/DSA/tree/master/0367-valid-perfect-square) |
 | [0509-fibonacci-number](https://github.com/yashspidey/DSA/tree/master/0509-fibonacci-number) |
 | [0537-complex-number-multiplication](https://github.com/yashspidey/DSA/tree/master/0537-complex-number-multiplication) |
+| [1872-stone-game-viii](https://github.com/yashspidey/DSA/tree/master/1872-stone-game-viii) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/yashspidey/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/yashspidey/DSA/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/yashspidey/DSA/tree/master/3345-smallest-divisible-digit-product-i) |
@@ -285,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/yashspidey/DSA/tree/master/0152-maximum-product-subarray) |
 | [0410-split-array-largest-sum](https://github.com/yashspidey/DSA/tree/master/0410-split-array-largest-sum) |
 | [0509-fibonacci-number](https://github.com/yashspidey/DSA/tree/master/0509-fibonacci-number) |
+| [1872-stone-game-viii](https://github.com/yashspidey/DSA/tree/master/1872-stone-game-viii) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/yashspidey/DSA/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 ## Recursion
 |  |
@@ -340,6 +343,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/yashspidey/DSA/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/yashspidey/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [1480-running-sum-of-1d-array](https://github.com/yashspidey/DSA/tree/master/1480-running-sum-of-1d-array) |
+| [1872-stone-game-viii](https://github.com/yashspidey/DSA/tree/master/1872-stone-game-viii) |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/yashspidey/DSA/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 ## Merge Sort
 |  |
@@ -403,4 +407,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/yashspidey/DSA/tree/master/0204-count-primes) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/yashspidey/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/yashspidey/DSA/tree/master/3658-gcd-of-odd-and-even-sums) |
+## Minimax
+|  |
+| ------- |
+| [1872-stone-game-viii](https://github.com/yashspidey/DSA/tree/master/1872-stone-game-viii) |
+## Game Theory
+|  |
+| ------- |
+| [1872-stone-game-viii](https://github.com/yashspidey/DSA/tree/master/1872-stone-game-viii) |
+## Zero-Sum Game
+|  |
+| ------- |
+| [1872-stone-game-viii](https://github.com/yashspidey/DSA/tree/master/1872-stone-game-viii) |
 <!---LeetCode Topics End-->
