@@ -8,8 +8,8 @@ public:
         for (int r = 0; r < n; r++) {
             mp[s[r]]++;
 
-            if (mp[s[r]] > 1) {
-                while (mp[s[r]] > 1) {
+            if (mp.size() < r-l+1) {
+                while (mp.size() < r-l+1) {
                     mp[s[l]]--;
                     if (mp[s[l]] == 0) {
                         mp.erase(s[l]);
@@ -17,7 +17,8 @@ public:
                     l++;
                 }
             }
-            mx = max(mx, r - l + 1);
+            int z = mp.size();
+            mx = max(mx, z);
         }
 
         return mx;
