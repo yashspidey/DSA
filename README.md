@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0463-island-perimeter](https://github.com/yashspidey/DSA/tree/master/0463-island-perimeter) |
 | [0485-max-consecutive-ones](https://github.com/yashspidey/DSA/tree/master/0485-max-consecutive-ones) |
 | [0493-reverse-pairs](https://github.com/yashspidey/DSA/tree/master/0493-reverse-pairs) |
+| [0496-next-greater-element-i](https://github.com/yashspidey/DSA/tree/master/0496-next-greater-element-i) |
 | [0540-single-element-in-a-sorted-array](https://github.com/yashspidey/DSA/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/yashspidey/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0643-maximum-average-subarray-i](https://github.com/yashspidey/DSA/tree/master/0643-maximum-average-subarray-i) |
@@ -104,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0438-find-all-anagrams-in-a-string](https://github.com/yashspidey/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/yashspidey/DSA/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0457-circular-array-loop](https://github.com/yashspidey/DSA/tree/master/0457-circular-array-loop) |
+| [0496-next-greater-element-i](https://github.com/yashspidey/DSA/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/yashspidey/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/yashspidey/DSA/tree/master/0567-permutation-in-string) |
 | [0645-set-mismatch](https://github.com/yashspidey/DSA/tree/master/0645-set-mismatch) |
@@ -188,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/yashspidey/DSA/tree/master/0020-valid-parentheses) |
+| [0496-next-greater-element-i](https://github.com/yashspidey/DSA/tree/master/0496-next-greater-element-i) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/yashspidey/DSA/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Math
 |  |
@@ -445,4 +448,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/yashspidey/DSA/tree/master/0239-sliding-window-maximum) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0496-next-greater-element-i](https://github.com/yashspidey/DSA/tree/master/0496-next-greater-element-i) |
 <!---LeetCode Topics End-->
